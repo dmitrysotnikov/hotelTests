@@ -1,0 +1,26 @@
+#:url: http://hcloudcms.hotelcloud.co
+:url: http://testalex.hotelcloud.org
+
+
+:default_username: alexander.vinitskyi+hcloudcms@gmail.com
+:default_password: passwordt7b
+
+:email: hcloudtesting@gmail.com
+:email_password: hcloud1Bot
+
+:vendor_email: alexander.vinitskyi@gmail.com
+:vendor_password: Great123
+
+:notification_email: notifications@hotelcloud.org
+
+:default_folder_image: folder-225x145-69e06f919c0d31c57550cefa06d42755.png
+:default_service_image: service-225x145-6ef65a12ad6e8bd378b34936fdcb7ea1.png
+:default_info_image: info-225x145-fcc132fa805f05b9d9e13d81bdf8cbdf.png
+:default_link_image: link-225x145-aac80a2f9576827351ea7dd2b644eb71.png
+
+:applitools_api_key: R0K1OZVJSYrsu1lx7rXTVo104DH7savgXPJ59WJ2OQbqg110
+
+:driver: selenium
+
+:api_username: ci
+:api_password: testing

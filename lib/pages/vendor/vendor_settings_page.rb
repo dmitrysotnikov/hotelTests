@@ -1,0 +1,23 @@
+class VendorSettingsPage < SitePrism::Page
+
+  element :export_folder_name, '#vendor_root_folder_attributes_translations_en_name'
+  element :vendor_default_currency, '#vendor_default_currency'
+  element :vendor_delivery_charge, '#vendor_delivery_charge'
+  element :vendor_tax_rate, '#vendor_tax_rate'
+  element :vendor_tax_included, '#vendor_tax_included'
+  element :cancelation_policy, '#vendor_cancelation_policy'
+  element :partner_company_name_field, '#vendor_partner_attributes_name'
+  element :type_of_service_field, '#vendor_partner_attributes_kind'
+  element :address_field, '#vendor_partner_attributes_address_street'
+  element :city_field, '#vendor_partner_attributes_address_city'
+  element :zip_code_field, '#vendor_partner_attributes_address_code'
+  element :country_dropdown, '#vendor_partner_attributes_address_country'
+  element :tax_number_field, '#vendor_partner_attributes_vat_number'
+  element :meeting_point_field, '#vendor_partner_attributes_location'
+  element :mobile_number_field, '#vendor_partner_attributes_mobile_phone'
+  element :phone_number_field, '#vendor_partner_attributes_phone'
+  element :name_of_contact_field, '#vendor_partner_attributes_contact_name'
+  element :email_address_of_contact_field, '#vendor_partner_attributes_email'
+  element :banned_import_blue_square_checkbox, '#vendor_banned_importer_ids_79'
+  element :banned_import_testalex_checkbox, '#vendor_banned_importer_ids_82'
+end
